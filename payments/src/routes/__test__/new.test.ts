@@ -10,7 +10,7 @@ import { Payment } from '../../models/payment';
 // jest.mock('../../stripe');
 
 it('returns a 404 when purchasing an order that does not exist', async () => {
-  request(app)
+  await request(app)
     .post('/api/payments')
     .set('Cookie', await signin())
     .send({
@@ -31,7 +31,7 @@ it('returns a 401 when purchasing an order that doesnt belong to the user', asyn
 
   await order.save();
 
-  request(app)
+  await request(app)
     .post('/api/payments')
     .set('Cookie', await signin())
     .send({
@@ -63,7 +63,7 @@ it('returns a 400 when purchasing a cancelled order', async () => {
     .expect(400);
 });
 
-it('returns a 204 with valid inputs', async () => {
+it('returns a 201 with valid inputs', async () => {
   const userId = mongoose.Types.ObjectId().toHexString();
   const price = Math.floor(Math.random() * 100000);
   const order = Order.build({
