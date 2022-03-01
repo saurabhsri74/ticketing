@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T04:16:59.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.6.4" etag="vyA6cAOgXaIlkJMbBNMt" type="github"><diagram id="DTUDWaw7HAPkBmmaw32k">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-01T04:27:44.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="eH0ivKwRIjDPaX-E8HFK" version="16.6.4" type="github">
+  <diagram id="DTUDWaw7HAPkBmmaw32k" name="Page-1">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K_8VgHZnTsegJk7dObxU-1" value="Book Appointment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="Patient" Patient="" id="K_8VgHZnTsegJk7dObxU-2">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="102" y="160" width="30" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="K_8VgHZnTsegJk7dObxU-7" value="Patient Registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K_8VgHZnTsegJk7dObxU-8" value="Patient Registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K_8VgHZnTsegJk7dObxU-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.email;" vertex="1" parent="1">
+          <mxGeometry x="102" y="238" width="23.92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K_8VgHZnTsegJk7dObxU-10" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.sms;fillColor=#48B921;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object label="Referring Doctor" Patient="" id="K_8VgHZnTsegJk7dObxU-11">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="329" y="160" width="30" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="K_8VgHZnTsegJk7dObxU-13" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.email;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="23.92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K_8VgHZnTsegJk7dObxU-14" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.sms;fillColor=#48B921;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="318" y="242" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object label="Patient" Patient="" id="K_8VgHZnTsegJk7dObxU-17">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="248.91999999999996" y="160" width="30" height="50" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
